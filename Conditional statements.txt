@@ -1,0 +1,113 @@
+Conditional Statements / Decision making statements--> statements that r using to take some decisions or check some conditions
+
+Eg:-->
+
+If there is a rain
+I will stay at home
+otherwise
+I will go to the market
+
+Types--->
+
+1. If..Else
+2. Switch case
+3. Conditional operator (? :)
+
+1. If..Else
+
+If-->true
+Else-->false
+
+syntax:-->
+
+if(condition)
+{
+statements;
+}
+else
+statement;
+
+eg:-->
+
+if(a>b)
+{
+cout<<"a is greater";
+cout<<"bye";
+}
+else
+cout<<"b is greater";
+
+
+Rule-->
+
+1. If there is one statement in If or Else block then {} can be dropped
+
+2. Else block can dropped or If block can be used alone
+
+Types-->
+
+1. Nested If
+
+2. Multiple If-->rarely
+
+1. Nested If--->
+
+if((a>b)&&(a>c))
+cout<<"a is greater";
+else if((b>a)&&(b>c))
+cout<<"b is greater";
+else
+cout<<"c is greater";
+
+2. Multiple If
+
+if(a>b)
+{
+if(a>c)
+{
+cout<<"a is greater";
+}
+}
+else
+{
+if(b>a)
+{
+if(b>c)
+{
+cout<<"b is greater";
+}
+}
+else
+cout<<"c is greater";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
