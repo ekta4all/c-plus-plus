@@ -1,0 +1,34 @@
+Constructor---> 
+
+What--> constructor called automatically whenever object is created.
+It has the same name as the class name.
+
+eg:-->
+
+class student
+{
+
+public:
+
+student()
+{
+//constructor
+}
+
+why--> It initiliaze the value of data member as zero.
+
+Types-->
+
+1. Default
+2. Parametrized
+3. Copy Constructor
+
+
+
+
+
+
+
+
+
+
