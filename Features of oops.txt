@@ -1,0 +1,156 @@
+Encapsulation-->
+
+capsule--> two molecules ko bind karte hai in single unit
+
+Wrapping up of data member and member function present into a single unit known as class called Encapsulation
+
+Eg:--
+
+class student
+{
+int roll; //data member
+
+public:
+
+void getdata() // member function
+{
+
+}
+};
+
+2. Inheritance :--> Inheritance derived from the word inherit which means parent- child relationship in which a child class inherit all the properties of the parent class plus having its own features is called inheritance.
+
+Eg-->
+
+
+Dog-->Animal
+
+Orange-->Fruit
+
+Types-->
+
+1.Single Inheritance
+2.Multiple 
+3.Multilevel
+4.Hierarchial
+5.Hybrid
+
+
+3. Abstraction-->Display all the essential features and hiding all the background details.
+
+eg-->
+
+CAR-->Engine
+
+
+class teacher
+{
+
+t_id; //private
+
+public:
+
+void getdata()
+{
+
+}
+};
+
+4. Polymorphism--> consist of two words Poly and morphism. Its a latin word which means poly-->many and morphism-->forms so polymorhism means One name and many forms.
+
+Types->
+
+1. compile time polymorhism /Early binding/static binding-->function overloading and operator overloading
+
+2. runtime polymorhism / Late binding/dynamic binding-->virtual functions
+
+1. Function overloading--> All functions having the same name but different parameters and data type.
+
+Rules-->
+
+1.If no. of aruguments is same then their datatype should be different
+
+2.If datatypes are same then their no. of arguments should be different.
+
+eg:-->
+
+int sum(int,int);
+int sum(int,int,int);
+float sum(float,float);
+
+Constructor Overloading
+
+Test()--->default
+Test(int)-->single parametrized
+Test(int,int)-->double parametrized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
