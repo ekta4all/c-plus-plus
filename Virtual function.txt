@@ -1,0 +1,44 @@
+Runtime Polymorphism
+
+virtual function
+
+virtual-->keyword
+
+Virtual function is a function which is declared in the parent/base class and redefined by a child/derived class. When we refer a child class ojbect using a base pointer or reference to the base class we can call a virtual function and it is exceute the derived class.
+
+Rules-->
+
+1. virtual can't be static
+2. It can be a friend function
+3. Virtual function should be accessed using the pointer or reference of base class
+4. It is used to achieve runtime polymorphism
+5. The prototype of virtual function should be same in the base class as well as in the derived class.
+6. It is always defined in the base class and override in the derived class.
+
+
+Pure Virtual function-->
+
+A function is not used for performing any task.
+It only serve as a placeholder.
+It has no definition
+It is also known as do-nothing function
+It is declared in the base class that has no definition 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
