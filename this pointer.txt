@@ -1,0 +1,12 @@
+this pointer--->
+
+this-->current class
+
+Every object has a special pointer "this" which points to the object itself.
+
+This pointer is accesible to all members of the class but not to any static member of the class
+
+It can be used to find the address of the object in which the function is a member
+
+
+
